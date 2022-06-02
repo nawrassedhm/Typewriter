@@ -1,0 +1,25 @@
+body {
+background-color: Black
+}
+
+.typed {
+    line-height: 35px;
+    width: 80%;
+    font-size: 150%;
+    text-align: left;
+    font-family: "Courier New", "Lucida Console", monospace;
+     color: White;
+    vertical-align: text-bottom;
+}
+
+.typed::after{
+    content: "|";
+    font-size: 150%;
+    line-height: 30px;
+    animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+    from, to { color: transparent }
+    50% { color: rgba(245, 245, 245) }
+}
