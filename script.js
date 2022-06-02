@@ -11,3 +11,7 @@ function type() {
         text = '';
     }
 } 
+
+document.addEventListener("DOMContentLoaded", function() {
+    type();
+});
